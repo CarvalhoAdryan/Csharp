@@ -1,0 +1,41 @@
+# --- Binários e Arquivos de Build ---
+[Bb]in/
+[Oo]bj/
+[Aa]rm/
+[Aa]rm64/
+[Xx]64/
+[Xx]86/
+
+# --- Arquivos do Visual Studio (IDE) ---
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Arquivos do VS Code ---
+.vscode/
+# Nota: Alguns preferem commitar o launch.json, mas geralmente se ignora a pasta toda
+# para evitar conflitos de configurações pessoais.
+
+# --- Pacotes NuGet ---
+*.nupkg
+# Pasta de pacotes global (se estiver no nível do projeto)
+packages/
+!packages/build/
+
+# --- Logs e Arquivos Temporários ---
+*.log
+*.tmp
+*.temp
+
+# --- Publicação / Publish ---
+publish/
+*.azurepubxml
+
+# --- Resultados de Testes ---
+TestResults/
+*.sequenced
+
+# --- Arquivos de Sistema ---
+.DS_Store
+Thumbs.db
