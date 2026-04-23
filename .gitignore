@@ -1,6 +1,6 @@
 # --- Binários e Arquivos de Build ---
-[Bb]in/
-[Oo]bj/
+bin/
+obj/
 [Aa]rm/
 [Aa]rm64/
 [Xx]64/
