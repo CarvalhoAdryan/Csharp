@@ -14,4 +14,13 @@ public class Carro
     {
         Console.WriteLine("Carro Desligado");
     }
+
+    private void Teste()
+    {
+        Console.WriteLine("Carro Desligado");
+    }
+    internal void Teste2()
+    {
+        Console.WriteLine("Carro Desligado");
+    }
 }
