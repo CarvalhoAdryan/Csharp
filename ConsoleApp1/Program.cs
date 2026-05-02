@@ -15,28 +15,43 @@ class Program
 
     static void Main()
     {
-       Carro meuCarro =  new();
+    //    Carro meuCarro =  new();
 
-       meuCarro.Ligar();
-       meuCarro.Desligar();
+    //    meuCarro.Ligar();
+    //    meuCarro.Desligar();
 
-       Biscoito meuBiscoito = new();
+    //    Biscoito meuBiscoito = new();
 
-       meuBiscoito.Temperatura();
+    //    meuBiscoito.Temperatura();
 
-       DateOnly dia = new(2023,12,1); 
+    //    DateOnly dia = new(2023,12,1); 
 
-       string diaEmTexto = dia.ToString("D",new CultureInfo("pt-BR"));
-       DateTime hoje = DateTime.UtcNow; 
-       Console.WriteLine(diaEmTexto);
-       Console.WriteLine(hoje);
+    //    string diaEmTexto = dia.ToString("D",new CultureInfo("pt-BR"));
+    //    DateTime hoje = DateTime.UtcNow; 
+    //    Console.WriteLine(diaEmTexto);
+    //    Console.WriteLine(hoje);
 
-       Dificuldade nivel = Dificuldade.Baixo;
+    //    Dificuldade nivel = Dificuldade.Baixo;
 
-       int nivelint = (int)Dificuldade.Alto;
+    //    int nivelint = (int)Dificuldade.Alto;
 
-       Console.WriteLine(nivel);
-       Console.WriteLine(nivelint);
+    //    Console.WriteLine(nivel);
+    //    Console.WriteLine(nivelint);
+
+        // string nome = "Adryan";
+        // Console.WriteLine(nome);
+
+        // string  lastname = "lindo";
+        // Console.WriteLine(lastname);
+
+        // int? idade = null;
+
+        List<string> texto = ["Hello"];
+
+        texto.Add("Mundo");
+
+        string concat = string.Join(" ", texto ); //lista tudo, junta toda a lista 
+        Console.WriteLine(concat);
 
     }
 }
