@@ -17,37 +17,48 @@ class Program
         double saldo = 108.8;
         bool ativo = true;
         string autor = numero == 7 ? "Adryan" : "Lindo"; // if ternario ? se : se não
-        List<int> inteiros = [];
+        List<int> inteiros = [1,2,3];
         Cor Cor = Cor.preto;
 
-        string nome = numero switch
+        foreach (var num in inteiros)
         {
-            7 => "Adryan",
-            8 => "Lindo",
-            9 => "mimimi",
-            _ => "Desconhecido"
-        };
+            Console.WriteLine(num);
+        }
 
-        Console.WriteLine(nome);
 
-       switch (Cor)
-       {
-            case Cor.azul:
-                {
-                    Console.WriteLine("Cor azul");
-                }
-                break;
-            case Cor.preto:
-                {
-                    Console.WriteLine("Cor preto");
-                }
-                break;
-            case Cor.vermelho:
-                {
-                    Console.WriteLine("Cor vermeho");
-                }
-                break;
-       }
+        // for (int i = 0; i <= 5; i++)
+        // {
+        //     Console.WriteLine(i);
+        // }
+
+    //     string nome = numero switch
+    //     {
+    //         7 => "Adryan",
+    //         8 => "Lindo",
+    //         9 => "mimimi",
+    //         _ => "Desconhecido"
+    //     };
+
+    //     Console.WriteLine(nome);
+
+    //    switch (Cor)
+    //    {
+    //         case Cor.azul:
+    //             {
+    //                 Console.WriteLine("Cor azul");
+    //             }
+    //             break;
+    //         case Cor.preto:
+    //             {
+    //                 Console.WriteLine("Cor preto");
+    //             }
+    //             break;
+    //         case Cor.vermelho:
+    //             {
+    //                 Console.WriteLine("Cor vermeho");
+    //             }
+    //             break;
+    //    }
         
 
 
